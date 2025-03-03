@@ -1,0 +1,12 @@
+button {
+  background-color: rgb(119, 189, 87); /* Change to your desired color */
+  color: rgb(206, 37, 37); /* Text color */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+button:hover {
+  background-color: rgb(124, 124, 211); /* Changes color when hovered */
+}
