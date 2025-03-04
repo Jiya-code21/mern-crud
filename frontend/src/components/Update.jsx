@@ -15,7 +15,7 @@ const Update=()=> {
       const  getsingleuser=async()=>{
      
 
-  const response=await fetch(`http://localhost:5000/${id}`)
+  const response=await fetch(`https://mern-crud-x33b.onrender.com/${id}`)
 
   const result=await response.json()
     if(!response.ok){
@@ -37,7 +37,7 @@ setAge(result.age)
     const handleUpdate=async(e)=>{
       e.preventDefault()
       const updateUser={name,email,age}
-      const response=await fetch(`http://localhost:5000/${id}`,{
+      const response=await fetch(`https://mern-crud-x33b.onrender.com/${id}`,{
           method:"PATCH",
           body:JSON.stringify(updateUser),
           headers:{
